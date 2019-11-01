@@ -9,11 +9,12 @@ public class Numbers
         int limit = keyboard.nextInt();
         int userArray[] = new int[limit];
         //sets values in array
-        System.out.println("Please enter your numbers: ");
-        for(int index = 0; index < limit; index++)
-        {
-            userArray[index] = keyboard.nextInt();
-            System.out.print(userArray[index] + " ");
-        }//end of for loop cycling through array
+        System.out.println("Please enter your numbers");
+            for (int index = 0; index < limit; index++)
+            {
+                userArray[index] = keyboard.nextInt();
+            }//end of for loop cycling through array
+            for(int index = 0; index< limit; index++)
+                System.out.print(userArray[index] + " ");
     }//end of main method
 }//end of nuumbers class
